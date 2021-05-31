@@ -11,7 +11,7 @@ Source code for an arduino-controlled circuit that opens or closes my curtain de
 * Miscellaneous resistors, capacitors, wires.
 
 ## circuit
-TODO: find a good circuit drawing tool online.
+![circuit](/res/circuit.png)
 
 In the meantime, here's a quick description of the circuit. The switch provides an open (0V) or closed (5V) signal to the arduino. When the arduino registers a change in the switch's state, it tells the stepper motor driver to run the motor in order to open or close the curtain.
 
